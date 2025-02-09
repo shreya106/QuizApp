@@ -15,7 +15,7 @@ public class Questions {
 
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 //	@Column(name = "answer")
 	private String answer;
